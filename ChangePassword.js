@@ -6,10 +6,10 @@
 
 describe('Testing ModalPasswordChangeController', function () {
     var previousState = 'http://localhost:9000/';
-    var correctOldPassword = 'leer';
+    var correctOldPassword = 'correct';
     var incorrectOldPassword = 'incorrect';
-    var newPassword = 'leer';
-    var correctConfirmPassword = 'leer';
+    var newPassword = 'correct';
+    var correctConfirmPassword = 'correct';
     var incorrectConfirmPassword = 'incorrect';
 
     var getPwdChangeWindow = function () {
